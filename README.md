@@ -141,7 +141,6 @@ Supports adding multiple sizes, colors, and images for each product.
 - The project uses **Entity Framework Core** for data access.
 - Image uploads are stored locally, and their file paths are saved in the database.
 - Ensure that SQL Server is running and accessible from the connection string provided.
-Here's an updated section of the `README.md` with a "Contact" section added:
 
 
 ## Contact
