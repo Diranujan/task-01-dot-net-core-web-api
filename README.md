@@ -13,8 +13,8 @@ Additionally, the project includes a one-to-many relationship for managing multi
 - .NET Core Web API
 - SQL Server
 - Entity Framework Core
-- Vite (for the frontend, if applicable)
-- Axios (for API calls, if applicable)
+- Vite (for the frontend)
+- Axios (for API calls)
 
 ## Features
 
