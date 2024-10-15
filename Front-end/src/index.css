@@ -1,0 +1,60 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.sidebar {
+  transition: transform 0.3s ease;
+  width: 200px;
+  padding-top: 50px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  color: aliceblue;
+  background-color: #070707;
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.content {
+  padding: 20px;
+  margin-top: 20PX;
+}
+
+.sidebar-toggle {
+  position: fixed;
+  top: 5px;
+  left: 8px;
+  z-index: 1;
+  border: 2px solid #1a202c;
+  background-color: #1a202c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+
+
+.sidebar-toggle.open {
+  background-color: #ffffff;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-toggle.closed {
+  align-items: end;
+  background-color: #1d1b1b;
+  transition: background-color 0.3s ease;
+}
+
+
